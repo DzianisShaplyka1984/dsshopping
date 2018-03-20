@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+		<TextView
+			 xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:id="@+id/listName"
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:padding="5dp"
+			 android:textSize="24sp"
+			 android:layout_alignParentLeft="true">
+		</TextView>
+		<TextView
+			 xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:id="@+id/listCountItems"
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:padding="5dp"
+			 android:textSize="24sp"
+			 android:layout_alignParentRight="true">
+		</TextView>
+	</RelativeLayout>
+	<ProgressBar
+	    android:id="@+id/listProgressBar"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"
+	    />
+
+</LinearLayout>

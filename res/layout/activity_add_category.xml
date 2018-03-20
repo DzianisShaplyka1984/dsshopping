@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:text="@string/name_category" />
+
+    <EditText
+        android:id="@+id/addCategoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:ellipsize="end"
+	    android:maxLines="1"
+	    android:singleLine="true"/>
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+	        android:id="@+id/btSaveCategory"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_save"
+	        android:layout_toLeftOf="@+id/btCancelCategory" />
+     	<Button
+	        android:id="@+id/btCancelCategory"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_cancel"
+	        android:layout_alignParentRight="true" />
+     </RelativeLayout>  
+            
+</LinearLayout>

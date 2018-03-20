@@ -1,0 +1,23 @@
+<resources>
+	<string name="author_name">Денис Шаплыко</string>
+    <string name="app_name">DSShopping</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="title_activity_dsshopping">DSShopping</string>
+    <string name="title_activity_show_list">ShowListActivity</string>
+    <string name="title_activity_show_categories">ShowCategoriesActivity</string>
+    <string name="title_activity_add_product">AddProductActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_add_category">AddCategoryActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_about">О программе</string>
+    <string name="name_product">Название продукта</string>
+    <string name="name_category">Название категории</string>
+    <string name="button_save">Сохранить</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="label_choose_product">Выбор продукта</string>
+    <string name="message_add_product_list">добавлен в список</string>
+    <string name="message_add_category">Введите название категории</string>
+    <string name="message_add_product">Введите название продукта</string>
+    <string name="label_new_list">Новый список</string>
+</resources>

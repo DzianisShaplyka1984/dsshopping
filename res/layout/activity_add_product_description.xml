@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <TextView
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:text="@string/name_product" />
+
+    <EditText
+        android:id="@+id/addProductDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:ellipsize="end"
+	    android:maxLines="1"
+	    android:singleLine="true"/>
+
+    <Spinner
+        android:id="@+id/productDescriptionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+	        android:id="@+id/btSaveProductDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_save"
+	        android:layout_toLeftOf="@+id/btCancelProductDescription" />
+     	<Button
+	        android:id="@+id/btCancelProductDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_cancel"
+	        android:layout_alignParentRight="true" />
+
+     </RelativeLayout>  
+            
+</LinearLayout>
